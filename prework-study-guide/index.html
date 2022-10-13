@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -26,12 +27,23 @@
           <li>The a (which means anchor) creates a link to the same webpage or other webpages.</li>
           <li>The href is an attribute that points to the URL for the link.</li>
           <li>The alt is an attribute that contains a text string that describes two apperances and functionality of the image.</li>
+          <li> The rel is the relationship between current document and the linked document.</li>
         </ul>
       </section>
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Inline CSS is styling an element directly in the HTML file.</li>
+          <li>Internal Style sheet is embeded on an entire stylesheet directly in the HTML file using a style element in the head element (this will make ALL h1 elements the same)</li>
+          <li>External CSS stylesheet allows developers to keep all their CSS rules in a separate file (this is preferred and makes design easier).</li>
+          <li>The selector defines the element or attributes to which the rules or declarations will apply.</li>
+          <li>The declarations contain 2 components: propery (ex: color) and the value of the property (ex:blue).</li>
+          <li>* is the wild card symbol which adds to all elements on the page.</li>
+          <li>A comma between elements will add same styling to all those elements.</li>
+          <li>DRY = Do Not Repeat Yourself</li>
+          <li>The block assigns each image to start on a new line.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -39,6 +51,21 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch name: creates a new branch and switches to it</li>
+          <li>Git Flow
+              <ol>1. Make sure you are on the branc within command line by: git status
+                    Add the changed files in the working directory to the stagging area of Git by entering: git add -A</ol>
+              <ol>2. Changes have been staged, now commit to our repository by entering: git commit -m "added CSS to project" (for example)</ol>
+              <ol>3. Verify branch is up to date before opening a pull request: git pull origin main</ol>
+              <ol>4. Push to feature branch
+                    entering: git push origin feature/add-css</ol>
+              <ol>5. Open a pull request within GitHub by clicking Pull Requests on the prework-study-guide repository.
+                    Then click "New pull request"</ol>
+              <ol>6. Verify base branch is main and to comparison branch is the feature/add-css branch (for example).
+                    Add a title with a short description of the changes.
+                    Click "Create pull request"
+                    Merge your changes with the main branch by selecting "Merge pull request"</ol>
+              <ol>7. Close another GitHub issue</ol>
+          </li>
         </ul>
       </section>
       <section class="card" id="javascript-section">
